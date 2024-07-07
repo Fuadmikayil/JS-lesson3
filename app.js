@@ -9,3 +9,4 @@ if(a<b){
 if(a==b){
     alert(`${a} == ${b}`)
 }
+////////if bloku her zaman oxunur ve şert  yoxlanılır
