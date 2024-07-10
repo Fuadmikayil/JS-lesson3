@@ -71,6 +71,7 @@ console.log(studentName.indexOf("Fuad"));
 console.log(studentName.lastİndexOf("Fuad"));
 */
 /////İncludes serach true and false////////
+/*
 let studentName = ["Fuad", "Orkhan","Yasemin","Nurlan"]
 
 console.log(studentName.includes("Fuad"));
@@ -86,3 +87,8 @@ console.log(studentName.unshift("Rasim"));
 console.log(studentName.shift());
 //////Reverse//////
 console.log(studentName.reverse());
+*/
+
+//////////arrey within arrey 
+let arrey2 = [123, ["Fuad","Hesen",154]]
+console.log(arrey2[1][2]);
