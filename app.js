@@ -74,7 +74,7 @@ console.log(studentName.lastİndexOf("Fuad"));
 let studentName = ["Fuad", "Orkhan","Yasemin","Nurlan"]
 
 console.log(studentName.includes("Fuad"));
-///////////Join
+///////////Join/////////
 console.log(studentName.join("/"));
 //////////////Push///////
 console.log(studentName.push("Hesen"));
@@ -82,6 +82,7 @@ console.log(studentName.push("Hesen"));
 console.log(studentName.pop());
 //////UnShift//////
 console.log(studentName.unshift("Rasim"));
-
 //////Shift//////
 console.log(studentName.shift());
+//////Reverse//////
+console.log(studentName.reverse());
