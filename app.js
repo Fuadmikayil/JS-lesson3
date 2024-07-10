@@ -74,3 +74,5 @@ console.log(studentName.lastİndexOf("Fuad"));
 let studentName = ["Fuad", "Orkhan","Yasemin","Nurlan"]
 
 console.log(studentName.includes("Fuad"));
+///////////Join
+console.log(studentName.join("/"));
