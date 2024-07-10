@@ -53,4 +53,6 @@ else{
     alert("Kasıb!!!")
 }*/
 /////////Arrey///
-let students = ["Salam",false,123,undefined,null]
+let arrey = ["Salam",false,123,undefined,null]
+let studentName = ["Fuad", "Orkhan","Yasemin","Nurlan"]
+console.log(studentName[1]);
