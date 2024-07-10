@@ -51,7 +51,7 @@ if(money>result.toFixed(2)){
 }
 else{
     alert("Kasıb!!!")
-}*/
+}
 /////////Arrey///
 let arrey1 = ["Salam",false,123,undefined,null]
 let studentName = ["Fuad", "Orkhan","Yasemin","Nurlan"]
@@ -69,3 +69,8 @@ console.log(studentName.indexOf("Fuad"));
 
 /////Lastİndexof////////
 console.log(studentName.lastİndexOf("Fuad"));
+*/
+/////İncludes serach true and false////////
+let studentName = ["Fuad", "Orkhan","Yasemin","Nurlan"]
+
+console.log(studentName.includes("Fuad"));
