@@ -60,5 +60,9 @@ console.log(studentName[1]);
 console.log(studentName[studentName.length -1]);
 let lastindex = studentName[studentName.length -1]
 console.log(studentName[lastindex]);
-
+/////////Concat/////////
 console.log(arrey1.concat(studentName));
+
+
+/////İndexof////////
+console.log(studentName.indexOf("Fuad"));
