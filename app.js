@@ -76,3 +76,5 @@ let studentName = ["Fuad", "Orkhan","Yasemin","Nurlan"]
 console.log(studentName.includes("Fuad"));
 ///////////Join
 console.log(studentName.join("/"));
+//////////////Push///////
+console.log(studentName.push("Hesen"));
