@@ -36,8 +36,7 @@ if (sec === '+') {
 
 } else {
     alert("Yanlış seçim daxil etdiniz!!!!!!!!!!");
-}*/
-
+}
 
 alert("Redbull - 1.20azn, Cola 2.30, Sprite 4.10 ")
 let sec = prompt("Redbulldan neçe dene olsun?");
@@ -52,4 +51,6 @@ if(money>result.toFixed(2)){
 }
 else{
     alert("Kasıb!!!")
-}
+}*/
+/////////Arrey///
+let students = ["Salam",false,123,undefined,null]
