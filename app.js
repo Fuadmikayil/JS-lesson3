@@ -82,3 +82,6 @@ console.log(studentName.push("Hesen"));
 console.log(studentName.pop());
 //////UnShift//////
 console.log(studentName.unshift("Rasim"));
+
+//////Shift//////
+console.log(studentName.shift());
