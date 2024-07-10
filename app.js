@@ -66,3 +66,6 @@ console.log(arrey1.concat(studentName));
 
 /////İndexof////////
 console.log(studentName.indexOf("Fuad"));
+
+/////Lastİndexof////////
+console.log(studentName.lastİndexOf("Fuad"));
