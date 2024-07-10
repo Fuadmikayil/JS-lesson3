@@ -53,10 +53,12 @@ else{
     alert("Kasıb!!!")
 }*/
 /////////Arrey///
-let arrey = ["Salam",false,123,undefined,null]
+let arrey1 = ["Salam",false,123,undefined,null]
 let studentName = ["Fuad", "Orkhan","Yasemin","Nurlan"]
 console.log(studentName[1]);
 //////////İntervyu sualı 1//////
 console.log(studentName[studentName.length -1]);
 let lastindex = studentName[studentName.length -1]
 console.log(studentName[lastindex]);
+
+console.log(arrey1.concat(studentName));
