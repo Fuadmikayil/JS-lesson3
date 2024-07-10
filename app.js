@@ -58,3 +58,5 @@ let studentName = ["Fuad", "Orkhan","Yasemin","Nurlan"]
 console.log(studentName[1]);
 //////////İntervyu sualı 1//////
 console.log(studentName[studentName.length -1]);
+let lastindex = studentName[studentName.length -1]
+console.log(studentName[lastindex]);
