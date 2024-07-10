@@ -78,3 +78,5 @@ console.log(studentName.includes("Fuad"));
 console.log(studentName.join("/"));
 //////////////Push///////
 console.log(studentName.push("Hesen"));
+//////Pop//////
+console.log(studentName.pop());
