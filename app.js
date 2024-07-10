@@ -90,5 +90,8 @@ console.log(studentName.reverse());
 */
 
 //////////arrey within arrey 
-let arrey2 = [123, ["Fuad","Hesen",154]]
+let arrey2 = [123, ["Fuad", "Hesen", 154]]
 console.log(arrey2[1][2]);
+
+const students = [123, [111, ["Yasamen", "Leyla"], 222, ["Oraxan", "Fuad", "Nurlan"], 333]]
+console.log(students[1][3][2]);
