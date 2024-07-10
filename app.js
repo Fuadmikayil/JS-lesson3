@@ -80,3 +80,5 @@ console.log(studentName.join("/"));
 console.log(studentName.push("Hesen"));
 //////Pop//////
 console.log(studentName.pop());
+//////UnShift//////
+console.log(studentName.unshift("Rasim"));
