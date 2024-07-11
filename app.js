@@ -110,7 +110,6 @@ while (again) {
         again = false
     }
 }
-*/
 //////////login
 let again = true
 while (again) {
@@ -125,4 +124,11 @@ while (again) {
     }
 }
 
+*/
+//////reqemleri toplama
+let counter = 0
+for (let index = 0; index < 100; index++) {
+    counter += i
 
+}
+console.log(counter);
