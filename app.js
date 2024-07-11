@@ -124,7 +124,7 @@ while (again) {
     }
 }
 
-*/
+
 //////reqemleri toplama
 let counter = 0
 for (let index = 0; index < 100; index++) {
@@ -132,3 +132,9 @@ for (let index = 0; index < 100; index++) {
 
 }
 console.log(counter);
+*/
+const countries = ["Finland","Sweden","Denmark","Norway","İceland","Baku"]
+for (let index = 0; index < countries.length; index++) {
+    console.log(countries[index]);
+    
+}
