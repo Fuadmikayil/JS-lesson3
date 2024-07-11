@@ -146,7 +146,7 @@ for (let index = 0; index < numbers.length; index++) {
     
 }
 console.log(i);
-*/
+
 ///////qüvvete yükseltmek
 const numbers2 = [2,4,6,8,10,12,14]
 let newNumbers =[]
@@ -156,3 +156,10 @@ for (let index = 0; index < numbers2.length; index++) {
 }
 console.log(numbers2);
 console.log(newNumbers);
+*/
+const numbers2 = [2,4,6,8,10,12,14]
+for (let index = 0; index < numbers2.length; index++) {
+    numbers2[index] = numbers2[index] **2
+    
+}
+console.log(numbers2);
