@@ -101,7 +101,7 @@ for (let a = 0; a < 10; ++a) {
     console.log(a);
     
 }
-*/
+
 ////while
 let again = true
 while (again) {
@@ -110,4 +110,19 @@ while (again) {
         again = false
     }
 }
+*/
+//////////login
+let again = true
+while (again) {
+    let login = prompt("Enter login")
+    let password = prompt("Enter password")
+    if (login == "fuad123" && password == "fuad77") {
+        alert("Welcome")
+        again = false
+    }
+    else{
+        alert("Try again")
+    }
+}
+
 
