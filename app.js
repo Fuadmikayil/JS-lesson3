@@ -132,7 +132,7 @@ for (let index = 0; index < 100; index++) {
 
 }
 console.log(counter);
-*/
+
 const countries = ["Finland","Sweden","Denmark","Norway","İceland","Baku"]
 for (let index = 0; index < countries.length; index++) {
     console.log(countries[index]);
@@ -146,3 +146,13 @@ for (let index = 0; index < numbers.length; index++) {
     
 }
 console.log(i);
+*/
+///////qüvvete yükseltmek
+const numbers2 = [2,4,6,8,10,12,14]
+let newNumbers =[]
+for (let index = 0; index < numbers2.length; index++) {
+    newNumbers.push(numbers2[index] **2)
+    
+}
+console.log(numbers2);
+console.log(newNumbers);
