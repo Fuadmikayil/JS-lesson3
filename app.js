@@ -95,9 +95,19 @@ console.log(arrey2[1][2]);
 
 const students = [123, [111, ["Yasamen", "Leyla"], 222, ["Oraxan", "Fuad", "Nurlan"], 333]]
 console.log(students[1][3][2]);
-*/
+
 ///////////For
-for (let a = 0; a < 10; a++) {
+for (let a = 0; a < 10; ++a) {
     console.log(a);
     
 }
+*/
+////while
+let again = true
+while (again) {
+    let answer = prompt("2+2=?")
+    if (answer == "4") {
+        again = false
+    }
+}
+
