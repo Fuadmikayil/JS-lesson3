@@ -138,3 +138,11 @@ for (let index = 0; index < countries.length; index++) {
     console.log(countries[index]);
     
 }
+/////////numberss
+const numbers = [111,222,333,444,555,666,747]
+let i =0
+for (let index = 0; index < numbers.length; index++) {
+    i = i +numbers[index]
+    
+}
+console.log(i);
