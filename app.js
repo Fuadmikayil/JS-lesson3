@@ -197,7 +197,6 @@ function sayHello(name, surname, salary, age) {
 
 }
 sayHello("Fuad" ,"Mikayılov",1000,10)
-*/
 function demo ( a,b,c = 22){
     console.log(a);
     console.log(b);
@@ -205,3 +204,9 @@ function demo ( a,b,c = 22){
 }
 let x=5,y=10,z=15;
 demo(x,y,z)
+*/
+
+function calc(a,b){
+    return a+b
+}
+calc(1,2)
