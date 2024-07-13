@@ -210,14 +210,16 @@ function calc(a, b) {
 }
 let v = calc(1, 2)
 console.log(v);
-*/
-function login(username,password){
-    if(username=="admin" , password= "123"){
+function login(username, password) {
+    if (username == "admin", password = "123")
         return true
-    }
-    else{
-        return false
-    }
+
+    return false
+
 }
-let result = login("admin","123")
+let result = login("admin", "123")
 console.log(result);
+*/
+//////////////Function7
+const sayHello = (name) => `Hello ${name}`;
+console.log(sayHello('Zahid'))
