@@ -156,10 +156,34 @@ for (let index = 0; index < numbers2.length; index++) {
 }
 console.log(numbers2);
 console.log(newNumbers);
-*/
+
+//////////////2nd solution
 const numbers2 = [2,4,6,8,10,12,14]
 for (let index = 0; index < numbers2.length; index++) {
     numbers2[index] = numbers2[index] **2
     
 }
 console.log(numbers2);
+
+/////For of
+for (const iterator of numbers2) {
+    console.log(iterator);
+}
+*/
+//////////////Function
+function login(){
+    alert("Welcome")
+    let continueLogin = true 
+    while (continueLogin) {
+        let username = prompt("Enter username....")
+        let pass = prompt("Enter pass....")
+        if (username === "Fuad123" && pass === "Fuad456") {
+            alert("Welcome")
+            continueLogin= false
+        }
+        else{
+            alert("Try again")
+        }
+        
+    }
+}
