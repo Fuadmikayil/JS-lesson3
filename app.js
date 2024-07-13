@@ -204,9 +204,20 @@ function demo ( a,b,c = 22){
 }
 let x=5,y=10,z=15;
 demo(x,y,z)
-*/
 
-function calc(a,b){
-    return a+b
+function calc(a, b) {
+    return a + b
 }
-calc(1,2)
+let v = calc(1, 2)
+console.log(v);
+*/
+function login(username,password){
+    if(username=="admin" , password= "123"){
+        return true
+    }
+    else{
+        return false
+    }
+}
+let result = login("admin","123")
+console.log(result);
