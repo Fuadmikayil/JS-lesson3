@@ -169,7 +169,6 @@ console.log(numbers2);
 for (const iterator of numbers2) {
     console.log(iterator);
 }
-*/
 //////////////Function
 function login(){
     alert("Welcome")
@@ -187,7 +186,15 @@ function login(){
         
     }
 }
-function add( a,b){
+function add( a,b,operator){
     console.log(a+b)
 }
 add(10,20)
+*/
+function sayHello(name, surname, salary, age) {
+    alert(` Hİ ${name} ${surname}`)
+    alert(salary > 1000 ? "You are Rich" : "You are poor")
+    alert(age > 18 ? "You re adult" : "You are child")
+
+}
+sayHello("Fuad" ,"Mikayılov",1000,10)
