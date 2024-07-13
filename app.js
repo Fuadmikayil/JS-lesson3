@@ -190,7 +190,6 @@ function add( a,b,operator){
     console.log(a+b)
 }
 add(10,20)
-*/
 function sayHello(name, surname, salary, age) {
     alert(` Hİ ${name} ${surname}`)
     alert(salary > 1000 ? "You are Rich" : "You are poor")
@@ -198,3 +197,11 @@ function sayHello(name, surname, salary, age) {
 
 }
 sayHello("Fuad" ,"Mikayılov",1000,10)
+*/
+function demo ( a,b,c = 22){
+    console.log(a);
+    console.log(b);
+    console.log(c);
+}
+let x=5,y=10,z=15;
+demo(x,y,z)
