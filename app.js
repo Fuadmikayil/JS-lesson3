@@ -231,9 +231,42 @@ function salamala(name,surname,language){
 
 }
 salamala("Fuad","Mikayılov","az")
-*/
 ///////////////nume sum
-function add(a,b,c){
-    return a+b+c
+function add(a, b, c) {
+    return a + b + c
 }
-add(15,20,30)
+let result = add(15, 20, 30)
+let num1= +prompt("Num1"), num2 = +prompt("Num2"),num3 = +prompt("Num3");
+console.log(num1,num2,num3);
+/////////Callback Function and ananymouse function
+const demo = (name) => {
+    console.log(name);
+}
+demo("zaza")
+const demo2 = (a, b, c) => a + b + c
+const result1 = demo(1, 2, 3)
+const result2 = demo(1, 2, 3)
+console.log(result1);
+console.log(result2);
+*/
+///////Object 
+const user1 = {
+    name:"Fuad",
+    surname:"Mikayılov",
+    age:17,
+    isWorking:false
+}
+const user2 = {
+    name:"Zahid",
+    surname:"Vahabzade",
+    age:17,
+    isWorking:false
+}
+const user3 = {
+    name:"Orxan",
+    surname:"Eliyev",
+    age:17,
+    isWorking:false
+}
+
+const users = [user1,user2,user3]
