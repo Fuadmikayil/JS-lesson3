@@ -222,8 +222,7 @@ console.log(result);
 //////////////Function7
 const sayHello = (name) => `Hello ${name}`;
 console.log(sayHello('Zahid'))
-*/
-
+////////////////Function language
 function salamala(name,surname,language){
     if(language == "en")
         console.log(`Hello ${name + " " +surname} !`);
@@ -232,3 +231,9 @@ function salamala(name,surname,language){
 
 }
 salamala("Fuad","Mikayılov","az")
+*/
+///////////////nume sum
+function add(a,b,c){
+    return a+b+c
+}
+add(15,20,30)
