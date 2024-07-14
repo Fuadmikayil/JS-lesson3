@@ -219,7 +219,16 @@ function login(username, password) {
 }
 let result = login("admin", "123")
 console.log(result);
-*/
 //////////////Function7
 const sayHello = (name) => `Hello ${name}`;
 console.log(sayHello('Zahid'))
+*/
+
+function salamala(name,surname,language){
+    if(language == "en")
+        console.log(`Hello ${name + " " +surname} !`);
+    else if (language == "az")
+    console.log(`Salam ${name + " " +surname} !`);
+
+}
+salamala("Fuad","Mikayılov","az")
