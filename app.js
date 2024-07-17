@@ -248,7 +248,6 @@ const result1 = demo(1, 2, 3)
 const result2 = demo(1, 2, 3)
 console.log(result1);
 console.log(result2);
-*/
 ///////Object 
 const user1 = {
     name:"Fuad",
@@ -270,3 +269,151 @@ const user3 = {
 }
 
 const users = [user1,user2,user3]
+*/
+Courses1 = {
+    language: "İngilis Dili kursları",
+    imgLink: "imglink",
+    lessoninfo: {
+        icon: "icon1",
+        timeHead: "Dərsin müddəti",
+        timeİnfo: "həftədə 2 dəfə 90 Dəqiqə dərs +4 gün danışıq klubu"
+    },
+    courseTime: {
+        icon: "icon1",
+        courseHead: "Kursun müddəti",
+        courseİnfo: "1.5-2ay"
+    },
+    coursePrice: {
+        icon: "icon1",
+        courseHead: "Kursun Qiymeti",
+        courseİnfo: "99AZN / AY"
+    },
+    courseButoon: {
+        link: "href//////"
+    }
+}
+Courses2 = {
+    language: "Biznes  İngilis Dili",
+    imgLink: "imglink",
+    lessoninfo: {
+        icon: "icon1",
+        timeHead: "Dərsin müddəti",
+        timeİnfo: "həftədə 2 dəfə 90 Dəqiqə dərs +4 gün danışıq klubu"
+    },
+    courseTime: {
+        icon: "icon1",
+        courseHead: "Kursun müddəti",
+        courseİnfo: "1.5-2ay"
+    },
+    coursePrice: {
+        icon: "icon1",
+        courseHead: "Kursun Qiymeti",
+        courseİnfo: "140AZN / AY"
+    },
+    courseButoon: {
+        link: "href//////"
+    }
+}
+Courses3 = {
+    language: "Rus Dili kursları",
+    imgLink: "imglink",
+    lessoninfo: {
+        icon: "icon1",
+        timeHead: "Dərsin müddəti",
+        timeİnfo: "həftədə 2 dəfə 90 Dəqiqə dərs +4 gün danışıq klubu"
+    },
+    courseTime: {
+        icon: "icon1",
+        courseHead: "Kursun müddəti",
+        courseİnfo: "1.5-2ay"
+    },
+    coursePrice: {
+        icon: "icon1",
+        courseHead: "Kursun Qiymeti",
+        courseİnfo: "70AZN / AY"
+    },
+    courseButoon: {
+        link: "href//////"
+    }
+}
+Courses4 = {
+    language: "İELTS",
+    imgLink: "imglink",
+    lessoninfo: {
+        icon: "icon1",
+        timeHead: "Dərsin müddəti",
+        timeİnfo: "həftədə 2 dəfə 90 Dəqiqə dərs +4 gün danışıq klubu"
+    },
+    courseTime: {
+        icon: "icon1",
+        courseHead: "Kursun müddəti",
+        courseİnfo: "3ay"
+    },
+    coursePrice: {
+        icon: "icon1",
+        courseHead: "Kursun Qiymeti",
+        courseİnfo: "160azn / AY"
+    },
+    courseButoon: {
+        link: "href//////"
+    }
+}
+selectedCourses = [Courses1, Courses2, Courses3, Courses4]
+
+
+
+const phones = []
+
+const phone1 = {
+    deliveryİnfo: {
+        icon: "//iconsDelivery",
+        deliveryTime: "2saat/0.0m"
+    },
+    img: "/////imgssasd52",
+    vendor: "Apple",
+    model: "İphone 15 Pro",
+    color: "Blue",
+    beforePrice: 3.799,
+    currentPrice: 3.299,
+    currency: "₼",
+    discount: this.beforePrice - this.currentPrice,
+    priceİcon: "iconsMoney",
+    creditİnfo: "0% 12ay",
+    additionalinfo: {
+        screen: '6.1"',
+        ram: "8 GB",
+        storage: "512 GB"
+    }
+}
+
+
+const buildingİnformation = {
+    title: "Satılır 2 otaqlı yeni tikili 57 m², Nəsimi r.",
+    price: 186000,
+    img: "////////////",
+    squarePrice: this.price / this.area,
+    category: "Yeni tikili",
+    area: 57,
+    extract: "var",
+    repair: "var",
+    floor: "9 / 16",
+    numberOfRooms: "2",
+    mortgage: "var",
+    content: `
+    DƏYƏRLİ MÜŞTƏRİLƏRİMİZ!!
+    İPOTEKAYA YARARLI!!
+    ✅ Nəsimi rayonu Niagara restoranı və Olimpik starın yanı
+    ✅ 1 otaqdan 2 otağa düzəlmə
+    ✅ Əla təmirli
+    ✅ Mənzil bütün əşyaları ilə birgə satılır
+    ✅ Mənzildə demək olar təmirdən sonra yaşayış olmayıb
+    ✅ Bina İnfrastruktur cəhətdən çox əlverişli yerdə yerləşir
+    ✅ 7/24 mühafizə
+    ✅ Geniş həyət
+    ✅ Uşaqlar üçün oyun sahəsi
+    ✅ 2 sürətli lift
+    Daha ətraflı məlumat üçün əlaqə saxlaya bilərsiniz`,
+    location: "Sabit Rəhman küç."
+}
+
+
