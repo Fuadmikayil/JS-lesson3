@@ -423,4 +423,7 @@ const add = (a,b) =>{
 }
 let result = add(10,20)
 console.log(result);
+////////////ForEach
+const people = ["Nurlan","Orxan","Zahid","Fuad"]
 
+console.log(people[2]);
