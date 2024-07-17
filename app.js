@@ -427,3 +427,6 @@ console.log(result);
 const people = ["Nurlan","Orxan","Zahid","Fuad"]
 
 console.log(people[2]);
+people.forEach((x) => {
+    console.log(x);
+})
