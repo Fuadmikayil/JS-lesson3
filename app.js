@@ -457,7 +457,8 @@ console.log(x);
 */
 
 
-//////////////////////
+//////////////////////Filter metodu şerte uyğun bütün tapdıqlarını
+///arrey içersinde qaytarır tapmadıqda ise boş arrrey  qaytarır
 const numbers = [-1,-2,-0,3,-0,4,5,6,7,8,9,10]
 
 const y = numbers.filter((item) =>{
