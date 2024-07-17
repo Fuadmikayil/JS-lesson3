@@ -430,3 +430,21 @@ console.log(people[2]);
 people.forEach((x) => {
     console.log(x);
 })
+///////////////////Json Foreach
+const people1 = [
+    {
+        name:"Nurlan",
+        age:33
+    },
+    {
+        name:"Fuad",
+        age:44
+    },
+    {
+        name:"Zahid",
+        age:33
+    }
+]
+people1.forEach((item) =>{
+    console.log(item.name);
+})
