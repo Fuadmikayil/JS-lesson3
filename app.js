@@ -451,5 +451,7 @@ people1.forEach((item) =>{
 ///////////// Find metodu şerte uyğun tapırsa geriye tapdığını qaytarır
 ///tapmırsa undifined qaytarır
 const numbers = [1,2,3,4,5,6,7,8,9,10]
-const x = numbers.find( item => irem > 5)
+const x = numbers.find( item => {
+    return item > 5
+})
 console.log(x);
