@@ -469,10 +469,14 @@ console.log(y);
 
 //////Every Metodu bütün elementlerin şerte uyğun olub ve ya olamdığına baxır eger hamsı 
 ////uyğundursa True uyğun deyilse Folse qaytarır
-const numbers = [-1, -2, -0, 3, -0, 4, 5, 6, 7, 8, 9, 10]
+const numbers = [-1,1, 5, 6, 7, 8, 9, 10]
 const z = numbers.every((item) => item < 100)
 console.log(z);
 
 /////////Reduce metodu (cem toplama üçün isdifade olunur)
 const sum = numbers.reduce((acc,item) => acc+item,0)
 console.log(sum);
+////////////Adeten melumatları ekrana çıxarmaq üçündür
+numbers.map(items => {
+    console.log(items);
+})
