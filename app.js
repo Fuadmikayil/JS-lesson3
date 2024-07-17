@@ -269,7 +269,6 @@ const user3 = {
 }
 
 const users = [user1,user2,user3]
-*/
 Courses1 = {
     language: "İngilis Dili kursları",
     imgLink: "imglink",
@@ -448,10 +447,20 @@ const people1 = [
 people1.forEach((item) =>{
     console.log(item.name);
 })
-///////////// Find metodu şerte uyğun tapırsa geriye tapdığını qaytarır
+///////////// Find metodu şerte uyğun tapırsa geriye tapdığını qaytarır ilkini
 ///tapmırsa undifined qaytarır
-const numbers = [1,2,3,4,5,6,7,8,9,10]
+const numbers = [-1,-2,-0,3,-0,4,5,6,7,8,9,10]
 const x = numbers.find( item => {
     return item > 5
 })
 console.log(x);
+*/
+
+
+//////////////////////
+const numbers = [-1,-2,-0,3,-0,4,5,6,7,8,9,10]
+
+const y = numbers.filter((item) =>{
+    return item < 0;
+})
+console.log(y);
