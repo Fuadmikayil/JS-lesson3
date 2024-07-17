@@ -448,3 +448,7 @@ const people1 = [
 people1.forEach((item) =>{
     console.log(item.name);
 })
+///////////// Find
+const numbers = [1,2,3,4,5,6,7,8,9,10]
+const x = numbers.find( item => irem > 5)
+console.log(x);
